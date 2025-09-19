@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D&D Resturant Menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dugeons and Dragons Feast Menu</h1>
+           <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order-form">Order-Form</a></li>
+        </ul>
+      </nav>
+      <img
+        width="250"
+        src="https://i.pinimg.com/736x/72/3f/7c/723f7c9f74cc8b542e3f17f90d6fb1ad.jpg"
+        alt="dragon resturant logo"
+        id="header-img"
+      />
+      </header>
+      <main>
+        <section>
+          <h2>Menu</h2>
+          <article>
+            <figure>
+              <img
+              width="150"
+              src="https://i.pinimg.com/1200x/64/05/90/64059013390bf845014b1f60dc7d8fa4.jpg"
+              alt="sakura-lava-cake"
+            />
+            <h3>Sakura-Lava Cake</h3>
+            <p>Molten cake infused with the light floral essence of cherry blossoms <i>$7.99</i></p>
+            </figure>
+          </article>
+          <article>
+             <figure>
+              <img
+              width="150"
+              src="https://i.pinimg.com/1200x/af/81/ee/af81eeda457e43cb331cdd08b9fe56aa.jpg"
+              alt="Centipede Noodle Soup"
+            />
+            <h3>Centipede Noordle Soup</h3>
+            <p>Exotic dish featuring a rich broth infused with herbs and spices, with tender noodles complemented by the unique, earthy flavor of simmered centipede <i>$12.99</i></p>
+            </figure>
+          </article>
+          <article>
+             <figure>
+              <img
+              width="150"
+              src="https://i.pinimg.com/736x/01/e5/bf/01e5bf1696538242c78ba38fb2df6bca.jpg"
+              alt="Blueberry Muffin Cake"
+            />
+            <h3>Blueberry Muffin Cake</h3>
+            <p>Fluffy cake baked in the style of an oversized muffin, bursting with juicy blueberries throughout.<i>$8.99</i></p>
+            </figure>
+          </article>
+        </section>
+        <section>
+          <h2>Place Your Order</h2>
+          <form>
+            <label>How many would you like? </label>
+            <input type="number" minlength="0" required>
+            <br>
+            <label> Any drinks? </label> <br>
+            <input class="drink" type="radio" required> Yes <br>
+            <input class="drink" type="radio" required> No
+            <br>
+            <p>Special Requests:</p>
+            <textarea id="data-entry" rows="7" cols="42"  placeholder="Enter here"></textarea>
+
+            <br>
+            <input type="submit" value="Go To Checkout">
+          </form>
+        </section>
+      </main>
+      <footer>Made with love by PhantomForensic</footer>
+  </body>
+</html>
+
+
