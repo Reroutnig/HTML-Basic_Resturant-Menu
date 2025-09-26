@@ -22,7 +22,7 @@
       </header>
       <main>
         <section>
-          <h2>Menu</h2>
+          <h2 id="menu">Menu</h2>
           <article>
             <figure>
               <img
@@ -58,7 +58,7 @@
           </article>
         </section>
         <section>
-          <h2>Place Your Order</h2>
+          <h2 id="order-form">Place Your Order</h2>
           <form>
             <label>How many would you like? </label>
             <input type="number" minlength="0" required>
